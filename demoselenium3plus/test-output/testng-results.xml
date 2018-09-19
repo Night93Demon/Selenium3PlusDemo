@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15638" started-at="2018-09-18T11:19:46Z" finished-at="2018-09-18T11:20:02Z">
+  <suite name="Default suite" duration-ms="495" started-at="2018-09-19T05:42:20Z" finished-at="2018-09-19T05:42:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15638" started-at="2018-09-18T11:19:46Z" finished-at="2018-09-18T11:20:02Z">
-      <class name="com.Day2.WorkingWithAlerts">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.Day2.WorkingWithAlerts@5b275dab]" name="openbrowser" is-config="true" duration-ms="9200" started-at="2018-09-18T11:19:46Z" finished-at="2018-09-18T11:19:55Z">
+    <test name="Default test" duration-ms="495" started-at="2018-09-19T05:42:20Z" finished-at="2018-09-19T05:42:20Z">
+      <class name="com.ExtentReportExample.DemoExtentReports">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.ExtentReportExample.DemoExtentReports@77caeb3e]" name="startTest" is-config="true" duration-ms="173" started-at="2018-09-19T05:42:20Z" finished-at="2018-09-19T05:42:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="testcase()[pri:0, instance:com.Day2.WorkingWithAlerts@5b275dab]" name="testcase" duration-ms="6166" started-at="2018-09-18T11:19:55Z" finished-at="2018-09-18T11:20:01Z">
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="negativetest()[pri:0, instance:com.ExtentReportExample.DemoExtentReports@77caeb3e]" name="negativetest" duration-ms="10" started-at="2018-09-19T05:42:20Z" finished-at="2018-09-19T05:42:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.Day2.WorkingWithAlerts@5b275dab]" name="closebrowser" is-config="true" duration-ms="244" started-at="2018-09-18T11:20:01Z" finished-at="2018-09-18T11:20:02Z">
+        </test-method> <!-- negativetest -->
+        <test-method status="PASS" signature="resultmethod(org.testng.ITestResult)[pri:0, instance:com.ExtentReportExample.DemoExtentReports@77caeb3e]" name="resultmethod" is-config="true" duration-ms="3" started-at="2018-09-19T05:42:20Z" finished-at="2018-09-19T05:42:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativetest status=SUCCESS method=DemoExtentReports.negativetest()[pri:0, instance:com.ExtentReportExample.DemoExtentReports@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultmethod -->
+        <test-method status="PASS" signature="positivetest()[pri:0, instance:com.ExtentReportExample.DemoExtentReports@77caeb3e]" name="positivetest" duration-ms="2" started-at="2018-09-19T05:42:20Z" finished-at="2018-09-19T05:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positivetest -->
+        <test-method status="PASS" signature="resultmethod(org.testng.ITestResult)[pri:0, instance:com.ExtentReportExample.DemoExtentReports@77caeb3e]" name="resultmethod" is-config="true" duration-ms="1" started-at="2018-09-19T05:42:20Z" finished-at="2018-09-19T05:42:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=positivetest status=SUCCESS method=DemoExtentReports.positivetest()[pri:0, instance:com.ExtentReportExample.DemoExtentReports@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultmethod -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.ExtentReportExample.DemoExtentReports@77caeb3e]" name="closebrowser" is-config="true" duration-ms="284" started-at="2018-09-19T05:42:20Z" finished-at="2018-09-19T05:42:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- com.Day2.WorkingWithAlerts -->
+      </class> <!-- com.ExtentReportExample.DemoExtentReports -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
