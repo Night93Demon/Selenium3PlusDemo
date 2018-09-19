@@ -31,7 +31,7 @@ public class DemoExtentReports {
 	
 	@Test
 	public void positivetest() {
-		logger=extent.startTest("ptest");
+		logger=extent.startTest("positivetest");
 		Assert.assertTrue(true);
 		logger.log(LogStatus.PASS	, "Test case passed ");
 		
